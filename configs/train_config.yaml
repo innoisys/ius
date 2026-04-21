@@ -1,0 +1,44 @@
+model:
+    num_subnetworks: 4                      # corresponds to number of perceptual feature maps, set to 4
+    num_classes:     1
+    epu_activation: "sigmoid"
+    subnetwork_config:
+        architecture:   "base_one"          # default ius backbone
+        input_channels: 1                   # number of channels in perceptual feature decomposition, set to 1
+        base_channels:  64
+        fc_hidden_units: 32
+        pred_activation: "tanh"
+
+data_params:
+    dataset_path: "../datasets/kid"
+    images_extension: "png"
+    data_loading:
+        batch_size:         8
+        shuffle:            true
+        num_workers:        0
+        pin_memory:         false
+        persistent_workers: false
+    data_preprocessing:
+        data_mode: "rgb"                        # "rgb" or "grayscale"
+        data_parser: "folder"                   # "filename" or "folder" or "medmnist"
+        resize_dims: [ 128, 128 ]
+        medmnist_csv_file:  None
+        label_mapping:
+            abnormal: 1
+            normal: 0
+
+train_params:
+    mode:       "binary"
+    loss:       "binary_cross_entropy"
+    epochs:     200
+    optimizer:  "sgd"
+    learning_rate:  0.001
+    momentum:       0.9
+    weight_decay:   0.001
+    early_stopping_patience: 10
+    early_stopping_monitor:  "val_loss"         # "val_loss" or "val_metrics.auc"
+    early_stopping_mode:     "min"              # "min" of "max"
+
+log_dir:          "../results/logs"             # default parent path
+checkpoint_dir:   "../results/checkpoints"      # default parent path
+experiment_name:  "ius_kid"

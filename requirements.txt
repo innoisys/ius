@@ -1,0 +1,11 @@
+kornia==0.8.2
+numpy==2.2.0
+omegaconf==2.3.0
+pandas==2.2.3
+Pillow==11.0.0
+scikit-learn==1.7.0
+tensorboard==2.19.0
+torch==2.6.0
+torchvision==0.21.0
+tqdm==4.67.1
+
