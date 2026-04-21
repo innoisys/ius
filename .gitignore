@@ -209,7 +209,9 @@ __marimo__/
 
 # Project files
 datasets/*
+!datasets/.gitkeep
 datasets_synthetic/*
+!datasets_synthetic/.gitkeep
 results
 ius/ius_utils.py
 data/check_parsers.py
