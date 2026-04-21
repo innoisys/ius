@@ -208,9 +208,9 @@ __marimo__/
 
 
 # Project files
-datasets
+datasets/*
+datasets_synthetic/*
 results
-datasets_synthetic/
 ius/ius_utils.py
 data/check_parsers.py
 scripts/commands.md
