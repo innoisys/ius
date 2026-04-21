@@ -141,7 +141,7 @@ train_params:
     weight_decay:   0.001
     early_stopping_patience: 30
     early_stopping_monitor:  "val_loss"         # "val_loss" or "val_metrics.auc"
-    early_stopping_mode:     "min"              # "min" of "max"
+    early_stopping_mode:     "min"              # "min" or "max"
 log_dir:          "../results/logs"             # default parent path
 checkpoint_dir:   "../results/checkpoints"      # default parent path
 experiment_name:  "ius_dataset_name"            # desired experiment path
