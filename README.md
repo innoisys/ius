@@ -355,6 +355,7 @@ Synthetic medical image data can unlock the potential of deep learning (DL)-base
 If you use this code or find our work useful in your research, please cite:
 
 **APA**
+
 P. Gatoula, G. Dimas and D. K. Iakovidis, "Interpretable Similarity of Synthetic Image Utility," in *IEEE Transactions on Medical Imaging*, doi: 10.1109/TMI.2026.3679527. 
 
 **BibTeX**
