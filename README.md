@@ -141,7 +141,7 @@ train_params:
     weight_decay:   0.001
     early_stopping_patience: 30
     early_stopping_monitor:  "val_loss"         # "val_loss" or "val_metrics.auc"
-    early_stopping_mode:     "min"              # "min" of "max"
+    early_stopping_mode:     "min"              # "min" or "max"
 log_dir:          "../results/logs"             # default parent path
 checkpoint_dir:   "../results/checkpoints"      # default parent path
 experiment_name:  "ius_dataset_name"            # desired experiment path
@@ -353,6 +353,10 @@ Synthetic medical image data can unlock the potential of deep learning (DL)-base
 
 ## Citation
 If you use this code or find our work useful in your research, please cite:
+**APA**
+P. Gatoula, G. Dimas and D. K. Iakovidis, "Interpretable Similarity of Synthetic Image Utility," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2026.3679527. 
+
+**BibTeX**
 ```bibtex
 @article{
   author    = {Panagiota Gatoula and George Dimas and Dimitris K. Iakovidis},
