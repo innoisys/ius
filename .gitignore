@@ -218,3 +218,4 @@ scripts/eval_ius_dummy.py
 configs/train_config_kvasir_capsule.yaml
 configs/train_config_kid.yaml
 
+.idea
