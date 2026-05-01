@@ -1,5 +1,5 @@
 # Interpretable Similarity of Synthetic Image Utility (IUS)
-[![GitHub stars](https://img.shields.io/github/stars/innoisys/epu-cnn-torch.svg?style=flat&label=Star)](https://github.com/innoisys/ius/)
+[![GitHub stars](https://img.shields.io/github/stars/innoisys/ius.svg?style=flat&label=Star)](https://github.com/innoisys/ius/)
 [![Readme](https://img.shields.io/badge/README-green.svg)](README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
