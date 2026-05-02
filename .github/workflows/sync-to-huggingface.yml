@@ -15,6 +15,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Use Hugging Face README
+        run: |
+          cp README_huggingface.md README.md
+          rm -f README_huggingface.md
+
       - name: Sync to Hugging Face
         uses: huggingface/hub-sync@v0.1.0
         with:
