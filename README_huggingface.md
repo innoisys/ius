@@ -22,6 +22,7 @@ pipeline_tag: image-classification
 This repository currently contains the official **PyTorch** implementation of the *IUS* measure, introduced in [**"Interpretable Similarity of Synthetic Image Utility"**](https://ieeexplore.ieee.org/document/11458792) , published in **IEEE Transactions on Medical Imaging (TMI)**.
 
 > **Status**
+> 
 > Pretrained checkpoints are not included yet and will be released separately.
 
 ## Overview
