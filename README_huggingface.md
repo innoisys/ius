@@ -388,8 +388,11 @@ P. Gatoula, G. Dimas and D. K. Iakovidis, "Interpretable Similarity of Synthetic
 
 ## 📧 Contact
 Prof. Dimitris Iakovidis
+
 Director of Biomedical Imaging Lab
+
 University of Thessaly
+
 diakovidis@uth.gr
 
 ## ⚖️  License
