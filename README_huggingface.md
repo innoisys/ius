@@ -44,9 +44,8 @@ This repository currently contains the official **PyTorch** implementation of th
   - [6. Synthetic image utility evaluation with IUS](#6-synthetic-image-utility-evaluation-with-ius)
 - [Paper Abstract](#-paper-abstract)
 - [Citation](#citation)
-- [Contact](#-contact)
-- [License](#-license)
-- [TODO](#todo)
+- [Contact](#contact)
+- [License](#license)
 
 ## Features
 - YAML-based configuration for reproducible training, inference, and evaluation
