@@ -297,7 +297,7 @@ When using the `--tensorboard` flag, the script automatically:
 - enables real-time monitoring of training metrics and model graphs.
 
 ### 4. EPU-CNN Evaluation
-To assess the classification performance of a trained the trained EPU-CNN model run:
+To assess the classification performance of a trained EPU-CNN model run:
 ```bash
 python scripts/infer_epu.py --experiment_folder_name ius_dataset_name_base_one_0000_timestamp
 ```
