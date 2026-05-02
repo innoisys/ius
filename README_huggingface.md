@@ -21,7 +21,8 @@ pipeline_tag: image-classification
 
 This repository currently contains the official **PyTorch** implementation of the *IUS* measure, introduced in [**"Interpretable Similarity of Synthetic Image Utility"**](https://ieeexplore.ieee.org/document/11458792) , published in **IEEE Transactions on Medical Imaging (TMI)**.
 
-> **Status:** Pretrained checkpoints are not included yet and will be released separately.
+> **Status**
+> Pretrained checkpoints are not included yet and will be released separately.
 
 ## Overview
 **IUS** (*Interpretable Utility Similarity*) is an interpretable measure for assessing the utility of synthetic medical image datasets for downstream clinical decision support (CDS) tasks, built upon the **EPU-CNN** framework introduced in [*E pluribus unum interpretable convolutional neural networks*](https://www.nature.com/articles/s41598-023-38459-1) and available in our [previous code repository](https://github.com/innoisys/epu-cnn-torch).
