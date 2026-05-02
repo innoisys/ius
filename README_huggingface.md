@@ -388,7 +388,7 @@ P. Gatoula, G. Dimas and D. K. Iakovidis, "Interpretable Similarity of Synthetic
 }
 ```
 
-## 📧 Contact
+## Contact
 Prof. Dimitris Iakovidis
 
 Director of Biomedical Imaging Lab
@@ -397,6 +397,6 @@ University of Thessaly
 
 diakovidis@uth.gr
 
-## ⚖️  License
+## License
 This project is licensed under the MIT License.
 
