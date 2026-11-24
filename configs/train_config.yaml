@@ -34,7 +34,7 @@ train_params:
     optimizer:  "sgd"
     learning_rate:  0.001
     momentum:       0.9
-    weight_decay:   0.001
+    weight_decay:   1e-6
     early_stopping_patience: 10
     early_stopping_monitor:  "val_loss"         # "val_loss" or "val_metrics.auc"
     early_stopping_mode:     "min"              # "min" of "max"
