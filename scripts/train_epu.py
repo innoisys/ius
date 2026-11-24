@@ -90,6 +90,14 @@ def main():
                                 # log_histograms=False, tb_port=6006, tb_browser=False
 
     loss_fun = nn.BCEWithLogitsLoss() if train_params.mode == "binary" else nn.CrossEntropyLoss()
+    # if train_params.mode == "binary":
+    #     train_labels = torch.tensor([label for _, label in dataset_train], dtype=torch.float32)
+    #     n_pos = (train_labels == 1).sum()
+    #     n_neg = (train_labels == 0).sum()
+    #     pos_weight = (n_neg / n_pos).to(device)
+    #     loss_fun = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
+    # else:
+    #     loss_fun = nn.CrossEntropyLoss()
     optimizer = optim.SGD(params=epu_model.parameters(),
                           lr=train_params.learning_rate,
                           momentum=train_params.momentum,
